@@ -1,0 +1,13 @@
+:root {
+  --color-main: #ffffff;
+  --color-text: #121417;
+  --color-accent: #3470ff;
+  --color-hover: #0b44cd;
+  --color-tag: #12141780;
+  --color-dropdown: #12141733;
+  --color-filter-hint: #8a8a89;
+
+  --mobile: 375px;
+  --tablet: 768px;
+  --desktop: 1440px;
+}
