@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgogo_car=self.webpackChunkgogo_car||[]).push([[875],{875:function(n,c,r){r.r(c),r.d(c,{default:function(){return u}});var e=r(184);function u(){return(0,e.jsx)("div",{children:(0,e.jsx)("p",{children:"catalog"})})}}}]);
+//# sourceMappingURL=875.bdf68c48.chunk.js.map
