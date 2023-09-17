@@ -2,5 +2,53 @@
   width: 274px;
   height: 426px;
 
-  border: 1px solid black;
+  outline: 1px solid black;
+}
+
+.imgWrapper {
+  width: 274px;
+  height: 268px;
+
+  margin-bottom: 14px;
+
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.img {
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  color: var(--color-text);
+
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.infoModel {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.model {
+  color: var(--color-accent);
+}
+
+.rentalPrice {
+  margin-right: 9px;
 }

@@ -4,7 +4,7 @@ import css from './AdvertsList.module.css';
 
 export default function AdvertsList({ adverts }) {
   return (
-    <>
+    <div className={css.container}>
       {adverts && (
         <ul className={css.list}>
           {adverts.map(advert => {
@@ -16,6 +16,6 @@ export default function AdvertsList({ adverts }) {
           })}
         </ul>
       )}
-    </>
+    </div>
   );
 }

@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1180px;
+  width: var(--desktop);
   height: 90px;
 
   margin: 0 auto;
