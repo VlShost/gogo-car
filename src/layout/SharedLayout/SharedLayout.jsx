@@ -6,7 +6,7 @@ import Footer from '../Footer';
 
 export default function Layout() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <Suspense fallback={<div>Loading...</div>}>
@@ -14,6 +14,6 @@ export default function Layout() {
         </Suspense>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

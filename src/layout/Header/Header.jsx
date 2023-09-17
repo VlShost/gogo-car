@@ -6,8 +6,8 @@ import { ReactComponent as Logo } from '../../assets/logo.svg';
 
 export default function Header() {
   return (
-    <div className={css.container}>
-      <header className={css.header}>
+    <header className={css.header}>
+      <div className={css.container}>
         <NavLink className={css.navLink} to="/">
           <Logo />
         </NavLink>
@@ -29,7 +29,7 @@ export default function Header() {
             </NavLink>
           </li>
         </ul>
-      </header>
-    </div>
+      </div>
+    </header>
   );
 }

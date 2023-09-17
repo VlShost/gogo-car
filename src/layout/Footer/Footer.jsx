@@ -3,8 +3,8 @@ import css from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <div className={css.container}>
-      <footer className={css.footer}>
+    <footer className={css.footer}>
+      <div className={css.container}>
         <svg width="29px" height="29px">
           <use href={icons + '#copyright'}></use>
         </svg>
@@ -15,7 +15,7 @@ export default function Footer() {
         >
           Vladyslav Shostak
         </a>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }
