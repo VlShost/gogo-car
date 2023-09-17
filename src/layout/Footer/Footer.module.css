@@ -1,0 +1,23 @@
+.container {
+  max-width: 100vw;
+
+  background-color: var(--color-accent);
+}
+
+.footer {
+  width: 100vw;
+  height: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.copyrightText {
+  color: var(--color-main);
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
