@@ -5,10 +5,10 @@ import Button from '../Button';
 import Modal from '../Modal';
 
 export default function AdvertsCard({ advert }) {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
-    setIsModalOpen(prevState => !prevState);
+    setShowModal(!showModal);
   };
 
   const { img, make, model, year, rentalPrice } = advert;
@@ -29,8 +29,8 @@ export default function AdvertsCard({ advert }) {
           <p className={css.rentalPrice}>{rentalPrice}</p>
         </div>
       </div>
-      <Button text={'Learn more'} />
-      {isModalOpen && <Modal advert={advert} toggleModal={toggleModal} />}
+      <Button text={'Learn more'} onClick={toggleModal} />
+      {showModal && <Modal toggleModal={toggleModal} advert={advert} />}
     </div>
   );
 }

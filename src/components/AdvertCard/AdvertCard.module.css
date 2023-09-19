@@ -3,6 +3,13 @@
   height: 426px;
 
   outline: 1px solid black;
+
+  transition: 0.1s;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 }
 
 .imgWrapper {
