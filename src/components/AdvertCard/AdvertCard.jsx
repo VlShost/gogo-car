@@ -5,6 +5,7 @@ import Modal from '../Modal';
 
 import splitAddress from '../../utils/addressSplitter';
 
+import icons from '../../assets/sprite.svg';
 import css from './AdvertCard.module.css';
 
 export default function AdvertsCard({ advert }) {
@@ -35,11 +36,18 @@ export default function AdvertsCard({ advert }) {
         <img className={css.img} src={img} alt={make + model + 'Photo'} />
       </div>
 
+      <button>
+        <svg className={css.likeBtn} width={18} height={18}>
+          <use href={icons + '#heart'}></use>
+        </svg>
+      </button>
+
       <div className={css.titleWrapper}>
         <div className={css.titleModel}>
-          <p>{make}</p>
-          <p className={css.model}>{model},</p>
-          <p>{year}</p>
+          {make}
+          {make.length <= 5 && (
+            <span className={css.model}> {model}</span>
+          )}, {year}
         </div>
         <div>
           <p className={css.rentalPrice}>{rentalPrice}</p>

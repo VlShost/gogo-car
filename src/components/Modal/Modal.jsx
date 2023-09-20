@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import splitAddress from '../../utils/addressSplitter';
 
+import icons from '../../assets/sprite.svg';
 import css from './Modal.module.css';
 
 const modalRoot = document.querySelector('#modal-root');
@@ -26,7 +27,6 @@ export default function Modal({ advert, toggleModal }) {
     mileage,
     rentalPrice,
   } = advert;
-  console.log(functionalities[0].length);
 
   const addressDetails = splitAddress(address);
 
@@ -60,6 +60,13 @@ export default function Modal({ advert, toggleModal }) {
     <div className={css.backdrop} onClick={clickBackdrop}>
       <div className={css.modalWindow}>
         <img className={css.img} src={img} alt="alt" />
+
+        <button onClick={toggleModal}>
+          <svg className={css.closeBtn} width={24} height={24}>
+            <use href={icons + '#cross'}></use>
+          </svg>
+        </button>
+
         <h2 className={css.title}>
           {make} <span className={css.accent}>{model}</span>, {year}
         </h2>
