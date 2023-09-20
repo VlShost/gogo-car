@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/gogo-car/static/css/main.4d52f4f4.css",
-    "main.js": "/gogo-car/static/js/main.b001f24c.js",
+    "main.css": "/gogo-car/static/css/main.8fcd66bc.css",
+    "main.js": "/gogo-car/static/js/main.4cc25027.js",
     "static/js/415.d40dfa11.chunk.js": "/gogo-car/static/js/415.d40dfa11.chunk.js",
-    "static/css/56.6c9636cc.chunk.css": "/gogo-car/static/css/56.6c9636cc.chunk.css",
-    "static/js/56.dc9adc5a.chunk.js": "/gogo-car/static/js/56.dc9adc5a.chunk.js",
+    "static/css/249.6a920d8f.chunk.css": "/gogo-car/static/css/249.6a920d8f.chunk.css",
+    "static/js/249.52b968a8.chunk.js": "/gogo-car/static/js/249.52b968a8.chunk.js",
     "static/js/395.b3f7b14f.chunk.js": "/gogo-car/static/js/395.b3f7b14f.chunk.js",
     "static/js/384.9b6be1e2.chunk.js": "/gogo-car/static/js/384.9b6be1e2.chunk.js",
+    "static/media/Montserrat-SemiBold.ttf": "/gogo-car/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Regular.ttf": "/gogo-car/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/sprite.svg": "/gogo-car/static/media/sprite.09e2c60d2868baf748ae28d223fa4eeb.svg",
     "static/media/Manrope-SemiBold.ttf": "/gogo-car/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
     "static/media/Manrope-Medium.ttf": "/gogo-car/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
@@ -14,16 +16,16 @@
     "static/media/Manrope-Bold.ttf": "/gogo-car/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
     "static/media/Logo.svg": "/gogo-car/static/media/Logo.26530d99cf8055ac53db1c179c41fc69.svg",
     "index.html": "/gogo-car/index.html",
-    "main.4d52f4f4.css.map": "/gogo-car/static/css/main.4d52f4f4.css.map",
-    "main.b001f24c.js.map": "/gogo-car/static/js/main.b001f24c.js.map",
+    "main.8fcd66bc.css.map": "/gogo-car/static/css/main.8fcd66bc.css.map",
+    "main.4cc25027.js.map": "/gogo-car/static/js/main.4cc25027.js.map",
     "415.d40dfa11.chunk.js.map": "/gogo-car/static/js/415.d40dfa11.chunk.js.map",
-    "56.6c9636cc.chunk.css.map": "/gogo-car/static/css/56.6c9636cc.chunk.css.map",
-    "56.dc9adc5a.chunk.js.map": "/gogo-car/static/js/56.dc9adc5a.chunk.js.map",
+    "249.6a920d8f.chunk.css.map": "/gogo-car/static/css/249.6a920d8f.chunk.css.map",
+    "249.52b968a8.chunk.js.map": "/gogo-car/static/js/249.52b968a8.chunk.js.map",
     "395.b3f7b14f.chunk.js.map": "/gogo-car/static/js/395.b3f7b14f.chunk.js.map",
     "384.9b6be1e2.chunk.js.map": "/gogo-car/static/js/384.9b6be1e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d52f4f4.css",
-    "static/js/main.b001f24c.js"
+    "static/css/main.8fcd66bc.css",
+    "static/js/main.4cc25027.js"
   ]
 }
