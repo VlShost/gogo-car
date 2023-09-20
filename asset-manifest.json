@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/gogo-car/static/css/main.8fcd66bc.css",
-    "main.js": "/gogo-car/static/js/main.91f707c6.js",
-    "static/js/415.d40dfa11.chunk.js": "/gogo-car/static/js/415.d40dfa11.chunk.js",
+    "main.css": "/gogo-car/static/css/main.b2fe5bd1.css",
+    "main.js": "/gogo-car/static/js/main.1d3cb299.js",
+    "static/css/710.3eb4c2c7.chunk.css": "/gogo-car/static/css/710.3eb4c2c7.chunk.css",
+    "static/js/710.a27e4a21.chunk.js": "/gogo-car/static/js/710.a27e4a21.chunk.js",
     "static/css/163.8a05fb83.chunk.css": "/gogo-car/static/css/163.8a05fb83.chunk.css",
     "static/js/163.8f8187da.chunk.js": "/gogo-car/static/js/163.8f8187da.chunk.js",
     "static/css/966.ac123a04.chunk.css": "/gogo-car/static/css/966.ac123a04.chunk.css",
     "static/js/966.41618bc1.chunk.js": "/gogo-car/static/js/966.41618bc1.chunk.js",
     "static/js/384.9b6be1e2.chunk.js": "/gogo-car/static/js/384.9b6be1e2.chunk.js",
+    "static/media/car-hero2x.png": "/gogo-car/static/media/car-hero2x.a42162b10910f77152f6.png",
+    "static/media/car-hero1x.png": "/gogo-car/static/media/car-hero1x.dfefc3490b070f6d26d2.png",
     "static/media/Montserrat-SemiBold.ttf": "/gogo-car/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Regular.ttf": "/gogo-car/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/bg-hero.jpg": "/gogo-car/static/media/bg-hero.38c4120f925c6fccea60.jpg",
     "static/media/sprite.svg": "/gogo-car/static/media/sprite.f27d2ef1219ddd7d46ae645d5a03c829.svg",
     "static/media/Manrope-SemiBold.ttf": "/gogo-car/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
     "static/media/Manrope-Medium.ttf": "/gogo-car/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
@@ -17,9 +21,10 @@
     "static/media/Manrope-Bold.ttf": "/gogo-car/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
     "static/media/Logo.svg": "/gogo-car/static/media/Logo.26530d99cf8055ac53db1c179c41fc69.svg",
     "index.html": "/gogo-car/index.html",
-    "main.8fcd66bc.css.map": "/gogo-car/static/css/main.8fcd66bc.css.map",
-    "main.91f707c6.js.map": "/gogo-car/static/js/main.91f707c6.js.map",
-    "415.d40dfa11.chunk.js.map": "/gogo-car/static/js/415.d40dfa11.chunk.js.map",
+    "main.b2fe5bd1.css.map": "/gogo-car/static/css/main.b2fe5bd1.css.map",
+    "main.1d3cb299.js.map": "/gogo-car/static/js/main.1d3cb299.js.map",
+    "710.3eb4c2c7.chunk.css.map": "/gogo-car/static/css/710.3eb4c2c7.chunk.css.map",
+    "710.a27e4a21.chunk.js.map": "/gogo-car/static/js/710.a27e4a21.chunk.js.map",
     "163.8a05fb83.chunk.css.map": "/gogo-car/static/css/163.8a05fb83.chunk.css.map",
     "163.8f8187da.chunk.js.map": "/gogo-car/static/js/163.8f8187da.chunk.js.map",
     "966.ac123a04.chunk.css.map": "/gogo-car/static/css/966.ac123a04.chunk.css.map",
@@ -27,7 +32,7 @@
     "384.9b6be1e2.chunk.js.map": "/gogo-car/static/js/384.9b6be1e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fcd66bc.css",
-    "static/js/main.91f707c6.js"
+    "static/css/main.b2fe5bd1.css",
+    "static/js/main.1d3cb299.js"
   ]
 }
