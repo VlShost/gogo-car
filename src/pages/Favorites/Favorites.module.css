@@ -1,3 +1,17 @@
 .container {
-  /* min-height: 100vh; */
+  width: var(--desktop);
+
+  margin: 50px auto 100px;
+  padding: 0 15px;
+
+  min-height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 32px;
+  font-weight: 700;
 }

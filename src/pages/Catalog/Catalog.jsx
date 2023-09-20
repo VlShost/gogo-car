@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
-import { getAdverts } from '../services/advertsApi';
-import AdvertsList from '../components/AdvertsList/AdvertsList';
-import Button from '../components/Button';
+import { getAdverts } from '../../services/advertsApi';
+import AdvertsList from '../../components/AdvertsList/AdvertsList';
+// import Button from '../../components/Button';
+
+import css from './Catalog.module.css';
 
 export default function Catalog() {
   const [adverts, setAdverts] = useState([]);
@@ -18,9 +20,11 @@ export default function Catalog() {
   };
 
   return (
-    <>
+    <section className={css.container}>
       <AdvertsList adverts={adverts} />
-      <Button text={'Load more'} onClick={onLoadMoreClick} />
-    </>
+      <button className={css.loadMoreBtn} onClick={onLoadMoreClick}>
+        Load more
+      </button>
+    </section>
   );
 }
