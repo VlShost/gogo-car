@@ -2,11 +2,14 @@
   position: fixed;
   top: 0;
   left: 0;
+
   width: 100vw;
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   background-color: var(--color-dropdown);
   z-index: 1200;
 }
@@ -21,23 +24,141 @@
   border-radius: 24px;
 }
 
+.accent {
+  color: var(--color-accent);
+}
+
 .img {
+  width: 461px;
+  height: 248px;
+
+  margin-bottom: 14px;
+
   border-radius: 14px;
   background: var(--color-img-background);
   object-fit: cover;
 }
 
+.title {
+  margin-bottom: 8px;
+
+  color: var(--color-text);
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .tagsWrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px;
 }
 
-.tags {
-  color: rgba(18, 20, 23, 0.5);
+.list {
+  display: flex;
+
+  color: var(--color-tags-list);
 
   font-size: 12px;
+  line-height: 1.5;
 
-  font-weight: 400;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  & > li {
+    padding-left: 6px;
+    padding-right: 6px;
+
+    border-right: 1px solid var(--color-decor-line);
+  }
+
+  & > li:first-child {
+    padding-left: 0px;
+  }
+
+  & > li:last-child {
+    padding-left: 6px;
+    border-right: none;
+  }
+}
+
+.description {
+  margin-top: 14px;
+
+  color: var(--color-text);
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.subTitle {
+  margin-top: 24px;
+  margin-bottom: 8px;
+
+  color: var(--color-text);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.rentalConditionsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* margin-top: 8px; */
+  margin-bottom: 24px;
+
+  color: var(--color-conditions-text);
+
+  font-family: Montserrat;
+  font-size: 12px;
   line-height: 18px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+
+  & > li {
+    padding: 7px 14px;
+    background-color: var(--color-conditions-bg);
+    border-radius: 35px;
+  }
+
+  & > li > span {
+    color: var(--color-accent);
+
+    font-weight: 600;
+    letter-spacing: -0.24px;
+  }
+}
+
+.callBtn {
+  width: 168px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 12px 50px;
+  margin-top: 24px;
+
+  color: var(--color-main);
+  background-color: var(--color-accent);
+  border-radius: 12px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+  line-height: 20px;
+
+  transition: var(--transition-hover);
+
+  &:hover {
+    background-color: var(--color-hover);
+  }
+
+  &:focus {
+    background-color: var(--color-hover);
+  }
 }

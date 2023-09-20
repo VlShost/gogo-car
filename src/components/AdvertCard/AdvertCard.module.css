@@ -2,11 +2,14 @@
   width: 274px;
   height: 426px;
 
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 
-  transition: 0.1s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
+  &:hover {
+    transform: scale(1.1);
+  }
+
   &:focus {
     transform: scale(1.1);
   }
@@ -28,13 +31,7 @@
   object-fit: cover;
 }
 
-.test {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.infoWrapper {
+.titleWrapper {
   display: flex;
   justify-content: space-between;
 
@@ -46,7 +43,7 @@
   line-height: 24px;
 }
 
-.infoModel {
+.titleModel {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -58,4 +55,41 @@
 
 .rentalPrice {
   margin-right: 9px;
+}
+
+.tagsWrapper {
+  width: 270px;
+  height: 40px;
+
+  margin-top: 8px;
+  margin-bottom: 28px;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.list {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  color: var(--color-tags-list);
+
+  font-size: 12px;
+  line-height: 1.5;
+
+  & > li {
+    padding-left: 6px;
+    padding-right: 6px;
+
+    border-right: 1px solid var(--color-decor-line);
+  }
+
+  & > li:first-child {
+    padding-left: 0px;
+  }
+
+  & > li:last-child {
+    padding-left: 6px;
+    border-right: none;
+  }
 }
