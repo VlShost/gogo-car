@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/gogo-car/static/css/main.b2fe5bd1.css",
-    "main.js": "/gogo-car/static/js/main.1d3cb299.js",
-    "static/css/710.3eb4c2c7.chunk.css": "/gogo-car/static/css/710.3eb4c2c7.chunk.css",
-    "static/js/710.a27e4a21.chunk.js": "/gogo-car/static/js/710.a27e4a21.chunk.js",
+    "main.js": "/gogo-car/static/js/main.db6cdf10.js",
+    "static/css/710.5f029cad.chunk.css": "/gogo-car/static/css/710.5f029cad.chunk.css",
+    "static/js/710.8d566b3c.chunk.js": "/gogo-car/static/js/710.8d566b3c.chunk.js",
     "static/css/163.8a05fb83.chunk.css": "/gogo-car/static/css/163.8a05fb83.chunk.css",
     "static/js/163.8f8187da.chunk.js": "/gogo-car/static/js/163.8f8187da.chunk.js",
     "static/css/966.ac123a04.chunk.css": "/gogo-car/static/css/966.ac123a04.chunk.css",
@@ -22,9 +22,9 @@
     "static/media/Logo.svg": "/gogo-car/static/media/Logo.26530d99cf8055ac53db1c179c41fc69.svg",
     "index.html": "/gogo-car/index.html",
     "main.b2fe5bd1.css.map": "/gogo-car/static/css/main.b2fe5bd1.css.map",
-    "main.1d3cb299.js.map": "/gogo-car/static/js/main.1d3cb299.js.map",
-    "710.3eb4c2c7.chunk.css.map": "/gogo-car/static/css/710.3eb4c2c7.chunk.css.map",
-    "710.a27e4a21.chunk.js.map": "/gogo-car/static/js/710.a27e4a21.chunk.js.map",
+    "main.db6cdf10.js.map": "/gogo-car/static/js/main.db6cdf10.js.map",
+    "710.5f029cad.chunk.css.map": "/gogo-car/static/css/710.5f029cad.chunk.css.map",
+    "710.8d566b3c.chunk.js.map": "/gogo-car/static/js/710.8d566b3c.chunk.js.map",
     "163.8a05fb83.chunk.css.map": "/gogo-car/static/css/163.8a05fb83.chunk.css.map",
     "163.8f8187da.chunk.js.map": "/gogo-car/static/js/163.8f8187da.chunk.js.map",
     "966.ac123a04.chunk.css.map": "/gogo-car/static/css/966.ac123a04.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.b2fe5bd1.css",
-    "static/js/main.1d3cb299.js"
+    "static/js/main.db6cdf10.js"
   ]
 }
