@@ -10,6 +10,38 @@ import css from './AdvertCard.module.css';
 
 export default function AdvertsCard({ advert }) {
   const [showModal, setShowModal] = useState(false);
+  const [favorite, setFavorite] = useState(() => {
+    const savedFavorites = JSON.parse(localStorage.getItem('favorite')) || [];
+    return savedFavorites;
+  });
+
+  const isFavorite = favorite.some(favorite => favorite.id === advert.id);
+
+  const toggleFavorite = () => {
+    try {
+      const savedFavorites = JSON.parse(localStorage.getItem('favorite')) || [];
+
+      const isFavorite = savedFavorites.some(
+        favorite => favorite.id === advert.id
+      );
+
+      let updatedFavorites;
+
+      if (isFavorite) {
+        updatedFavorites = savedFavorites.filter(
+          favorite => favorite.id !== advert.id
+        );
+      } else {
+        updatedFavorites = [...savedFavorites, advert];
+      }
+
+      localStorage.setItem('favorite', JSON.stringify(updatedFavorites));
+
+      setFavorite(updatedFavorites);
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
 
   const toggleModal = () => {
     setShowModal(!showModal);
@@ -36,10 +68,16 @@ export default function AdvertsCard({ advert }) {
         <img className={css.img} src={img} alt={make + model + 'Photo'} />
       </div>
 
-      <button>
-        <svg className={css.likeBtn} width={18} height={18}>
-          <use href={icons + '#heart'}></use>
-        </svg>
+      <button className={css.likeBtn} onClick={toggleFavorite}>
+        {isFavorite ? (
+          <svg width={18} height={18}>
+            <use href={icons + '#active'}></use>
+          </svg>
+        ) : (
+          <svg width={18} height={18}>
+            <use href={icons + '#heart'}></use>
+          </svg>
+        )}
       </button>
 
       <div className={css.titleWrapper}>

@@ -61,8 +61,8 @@ export default function Modal({ advert, toggleModal }) {
       <div className={css.modalWindow}>
         <img className={css.img} src={img} alt="alt" />
 
-        <button onClick={toggleModal}>
-          <svg className={css.closeBtn} width={24} height={24}>
+        <button className={css.closeBtn} onClick={toggleModal}>
+          <svg width={24} height={24}>
             <use href={icons + '#cross'}></use>
           </svg>
         </button>

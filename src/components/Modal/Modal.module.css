@@ -47,6 +47,11 @@
 
   stroke: var(--color-text);
 
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+
   &:hover {
     transform: scale(1.2);
   }
