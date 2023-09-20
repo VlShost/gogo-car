@@ -11,20 +11,25 @@ main page he can familiarize himself with how the application works, as well as
 go directly to the catalog of cars that are available for rent using button
 `Learn more` or `Open Full Catalog`.
 
+![Home page](./src/assets/screenshots/main.png)
+
 ## Catalog
 
-This page contains a list of rental car ads that can be filtered by criteria
-such as car brand, price per hour of use, and mileage. The cards provide all the
-necessary information, which also includes a list of tags by which you can
-analyze the search results. More ads appear on the screen after clicking the
-`Load more` button. Also after clicking a heart icon in the upper right corner
-of the card, the ad will be added to the list of favorites.
+This page contains a list of rental car ads. The cards provide all the necessary
+information, which also includes a list of tags by which you can analyze the
+search results. More ads appear on the screen after clicking the `Load more`
+button. Also after clicking a heart icon in the upper right corner of the card,
+the ad will be added to the list of favorites.
+
+![Home page](./src/assets/screenshots/catalog.png)
 
 ## Favorites
 
-- Here the user can find all the ads he liked and view them again. When he
-  clicks the heart icon (now blue) again, the ad will be removed from the list
-  of favorites.
+Here the user can find all the ads he liked and view them again. When he clicks
+the heart icon (now blue) again, the ad will be removed from the list of
+favorites.
+
+![Home page](./src/assets/screenshots/favorites.png)
 
 ## Modal window
 
@@ -33,8 +38,17 @@ directory. It displays detailed information about the car, additional
 accessories, functions, as well as the conditions under which the rental of this
 car will be allowed.
 
-# Technologies
+![Home page](./src/assets/screenshots/modal.png)
 
-- **React.js**;
-- **React Router**;
-- **CSS Modules**;
+## Technologies
+
+- **React.js**
+- **React Router**
+- **CSS Modules**
+
+## Future features
+
+- **Filters**
+- **Responsive design**
+- **Ratings system**
+- **User Account**
