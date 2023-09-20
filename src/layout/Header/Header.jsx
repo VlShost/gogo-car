@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className={css.header}>
       <div className={css.container}>
-        <NavLink className={css.navLink} to="/">
+        <NavLink className={css.logoLink} to="/">
           <Logo />
         </NavLink>
 

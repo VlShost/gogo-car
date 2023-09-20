@@ -3,6 +3,7 @@ import icons from '../../assets/sprite.svg';
 
 import carHero1x from '../../assets/images/car-hero1x.png';
 import carHero2x from '../../assets/images/car-hero2x.png';
+import { NavLink } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -29,7 +30,9 @@ export default function Hero() {
         />
         <img loading="lazy" src={carHero1x} alt="Calendar" />
       </picture>
-      <button className={css.learnMoreBtn}>Learn more</button>
+      <NavLink className={css.learnMoreBtn} to="/catalog">
+        Learn more
+      </NavLink>
     </div>
   );
 }

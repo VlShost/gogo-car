@@ -41,7 +41,7 @@ export default function Description() {
           <p className={css.stepText}>Book your car</p>
         </div>
       </div>
-      <NavLink className={css.catalogLink} to="/">
+      <NavLink className={css.catalogLink} to="/catalog">
         Open Full Catalog
       </NavLink>
     </div>
